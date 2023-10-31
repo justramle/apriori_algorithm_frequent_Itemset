@@ -22,7 +22,8 @@ For each item in support count
 Initialize a map to store support and count frequent k-itemset Lk
 
 
-2. Step 2: Generate candidate itemset (Ck) by self-joining Lk-1 
+2. Step 2: Generate candidate itemset (Ck) by self-joining Lk-1
+   
             Eg: L3 = {abc, abd, ace, bcd}
                 Self-Join: L3*L3 where abcd from abc and abd, acde from acd and ace
                 Prunning: acde is removed because ade is not in L3
