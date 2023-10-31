@@ -5,7 +5,7 @@ Utilized Apriori Algorithm in Data mining to discover frequent-Itemsets in trans
 2. ./test
 
 ## Pseudo code for the algorithm:
-1. Step 1: Finding frequent 1-itemset(L1) and k-itemset
+**🐾 Step 1: Finding frequent 1-itemset(L1) and k-itemset**
 
 Initialize a map to count the support of 1-itemset
 
@@ -23,7 +23,7 @@ For each item in support count\
 Initialize a map to store support and count frequent k-itemset Lk
 
 
-2. Step 2: Generate candidate itemset (Ck) by self-joining Lk-1
+**🐾 Step 2: Generate candidate itemset (Ck) by self-joining Lk-1**
    
             Eg: L3 = {abc, abd, ace, bcd}
                 Self-Join: L3*L3 where abcd from abc and abd, acde from acd and ace
@@ -42,7 +42,7 @@ While Lk-1 is not empty:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;check if join itemset has k element\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add it into Lk
 
-3. Prunning Ck by checking (k-1)-subset
+**🐾 Prunning Ck by checking (k-1)-subset**
 
 Initialize vector to store frequent k-itemset(Lk)\
 For each candidate in Ck\
@@ -55,5 +55,6 @@ For each candidate in Ck\
 &nbsp;&nbsp;&nbsp;&nbsp;If isFrequent\
 &nbsp;&nbsp;&nbsp;&nbsp;add candidate to Ck
 
-## Generator that I use: https://www.philippe-fournier-viger.com/tools/Apriori_algorithm_demo.php
+## Generator that I use: 
+🐱 https://www.philippe-fournier-viger.com/tools/Apriori_algorithm_demo.php
 
