@@ -8,8 +8,9 @@ Utilized Apriori Algorithm in Data mining to discover frequent-Itemsets in trans
 1. Step 1: Finding frequent 1-itemset(L1) and k-itemset
 
 Initialize a map to count the support of 1-itemset
-For each item in transaction
-    Increment each item
+
+For each item in transaction\
+&nbsp;&nbsp;Increment each item
 
 Initialize a vector to store frequent 1-itemset(L1)
 
