@@ -1,0 +1,6 @@
+Minimal Support: 60%
+Itemset: {1 }	| Support Count : 12
+Itemset: {2 }	| Support Count : 14
+Itemset: {2 3 }	| Support Count : 12
+Itemset: {3 }	| Support Count : 15
+Itemset: {4 }	| Support Count : 16
