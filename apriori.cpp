@@ -78,7 +78,7 @@ int main() {
 
     // Set the minimum support to 50% of the total transactions
     // 10% 20% 30% 50%
-    // testing with 70%. Only sucessful on large minSupport
+    // testing with 60% - 80%. Only sucessful on large minSupport
     int minSupport = transactions.size() * 0.6; 
 
     // count frequent 1-itemsets
