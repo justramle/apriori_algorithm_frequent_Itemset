@@ -54,3 +54,6 @@ For each candidate in Ck\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break\
 &nbsp;&nbsp;&nbsp;&nbsp;If isFrequent\
 &nbsp;&nbsp;&nbsp;&nbsp;add candidate to Ck
+
+## Generator that I use: https://www.philippe-fournier-viger.com/tools/Apriori_algorithm_demo.php
+
