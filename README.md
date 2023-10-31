@@ -23,10 +23,10 @@ Initialize a map to store support and count frequent k-itemset Lk
 
 
 2. Step 2: Generate candidate itemset (Ck) by self-joining Lk-1 
-Eg: L3 = {abc, abd, ace, bcd}
-    Self-Join: L3*L3 where abcd from abc and abd, acde from acd and ace
-    Prunning: acde is removed because ade is not in L3
-    Therefore, C4={abcd}
+            Eg: L3 = {abc, abd, ace, bcd}
+                Self-Join: L3*L3 where abcd from abc and abd, acde from acd and ace
+                Prunning: acde is removed because ade is not in L3
+                Therefore, C4={abcd}
 
 Initialize a vector to store candidate k-itemset(Lk)
 Calculate k at current itemset
@@ -35,7 +35,6 @@ While Lk-1 is not empty:
     For each itemset in (Lk-1) - 1
         For each itemset in (Lk-1)
             join itemset1 and itemset2
-        
             check if join itemset has k element
             add it into Lk
 
