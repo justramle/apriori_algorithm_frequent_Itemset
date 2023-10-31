@@ -42,7 +42,7 @@ While Lk-1 is not empty:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;check if join itemset has k element\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add it into Lk
 
-**🐾 Prunning Ck by checking (k-1)-subset**
+**🐾 Step 3: Prunning Ck by checking (k-1)-subset**
 
 Initialize vector to store frequent k-itemset(Lk)\
 For each candidate in Ck\
