@@ -37,7 +37,7 @@ Calculate k at current itemset
 While Lk-1 is not empty:\
 &nbsp;&nbsp;&nbsp;&nbsp;Initialize an empty list Lk\
 &nbsp;&nbsp;&nbsp;&nbsp;For each itemset in (Lk-1) - 1\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For each itemset in (Lk-1)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For each itemset in (Lk-1)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;join itemset1 and itemset2\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;check if join itemset has k element\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add it into Lk
